@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="com.OnBuy.CategoryTest.TC_42_Create_Edit_Delete_CategoryTest">
+        <methods>
+          <include name="closeTheDB"/>
+          <include name="closeTheBrowser"/>
+          <include name="loginToTheApplication"/>
+          <include name="openBrowser"/>
+          <include name="connectToDB"/>
+          <include name="createEditDeleteCategory"/>
+          <include name="logoutOfTheApplication"/>
+        </methods>
+      </class> <!-- com.OnBuy.CategoryTest.TC_42_Create_Edit_Delete_CategoryTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
